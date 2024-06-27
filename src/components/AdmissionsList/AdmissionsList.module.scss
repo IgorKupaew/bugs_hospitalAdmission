@@ -1,0 +1,20 @@
+@import '../../utilities/vars.scss';
+
+.admissionsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.admissionsTitle {
+  display: flex;
+  justify-content: space-around;
+  width: 941px;
+  padding: 24px 55px 15px 5px;
+  & span {
+    @extend %default-font;
+    color: #000000;
+  }
+  background: #C4C4C4;
+}
